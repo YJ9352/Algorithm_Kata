@@ -6,7 +6,7 @@ fun main() {
         fun solution(n: Int): Int {
             var answer: Int = 0
 
-            for (x in 2 .. n-1) {
+            for (x in 2 .. n) {
                 if (n % x == 1) 
                 return x
             }
