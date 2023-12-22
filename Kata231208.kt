@@ -1,7 +1,7 @@
 package com.example.myapplication2.Algorithm_Kata
 
 fun main() {
-    //자릿수 더하기
+    //자릿수 더하기 1
     class Solution1 {
         fun solution1(n: Int): Int {
             var answer = 0
@@ -18,6 +18,11 @@ fun main() {
             return answer
         }
     }
+    
+    //자릿수 더하기 2
+    class Solution {
+    fun solution(n: Int): Int  = n.toString().map { it -> it.toString().toInt() }.sum()     
+}
 
     // 약수의 합
     class Solution2 {
